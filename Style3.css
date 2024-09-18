@@ -1,0 +1,85 @@
+:root{
+    --bgclr:white;
+    --h:85vh;
+    --w:60vw;
+}
+.main{
+    
+    background-color: var(--bgclr);
+    height: var(--h);
+    width: var(--w);
+    display: grid;
+    gap:20px;
+    grid-template-areas:
+     'img1 img2 img3'
+     'img1 img2 img3'
+     'img1 img4 img5'
+     'img1 img4 img5'
+     'img6 img4 img7'
+     'img6 img4 img7'
+     'img6 img4 img7';
+     padding: 20px;
+     margin-left: 300px;
+     
+}
+.img1{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BNmY4YmU2ODYtZjMxZS00ZmNhLThmODgtZWYwNTQwZDMzMzA0XkEyXkFqcGc@._V1_.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: img1;
+    /* border: 1px solid black; */
+}
+
+.img2{
+    background-image: url(https://akm-img-a-in.tosshub.com/indiatoday/images/story/202401/pawan-kalyan-og-310249446-16x9_0.jpg?VersionId=LTC3hez7u5k4k9h.kmFWWghnC0758trP?size=647:363);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: img2;
+    /* border: 1px solid black; */
+}
+
+.img3{
+    background-image: url(https://i.pinimg.com/originals/05/10/59/051059893bd2b72b1f8a41ade1624395.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: img3;
+    /* border: 1px solid black; */
+}
+
+.img4{
+    background-image: url(https://preview.redd.it/og-new-poster-v0-y8rgvkhrci4d1.jpeg?auto=webp&s=8cdbd7b4244ecdd840861c53399e0a99d218f7f7);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: img4;
+    /* border: 1px solid black; */
+}
+
+.img5{
+    background-image: url(https://images.tv9telugu.com/wp-content/uploads/2023/08/og.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: img5;
+    /* border: 1px solid black; */
+}
+.img6{
+    background-image: url(https://d2zfbyesi0qka0.cloudfront.net/wp-content/uploads/2023/04/pawan-kalyan-og.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: img6;
+    /* border: 1px solid black; */
+}
+
+.img7{
+    background-image: url(https://www.newstap.in/h-upload/2023/08/10/1500x900_1530411-og.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    grid-area: img7;
+    /* border: 1px solid black;  */
+}
